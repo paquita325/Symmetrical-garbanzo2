@@ -1,0 +1,11 @@
+#Define pantufla 36
+int Pancrasia = 0;
+
+  VoidSetup
+{
+pinMode (pantufla, OUTPUT);
+}
+  VoidLoop
+{
+Pancrasia = digitalWrite(pantufla,HIGH);
+}
